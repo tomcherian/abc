@@ -1,0 +1,10 @@
+.result-header-wpr {
+  display: flex;
+  justify-content: flex-end;
+  min-height: 30px;
+  padding: 3%;
+}
+
+.dark-theme .result-header-wpr svg {
+  color: #fff;
+}

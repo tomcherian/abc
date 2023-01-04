@@ -1,0 +1,30 @@
+.search-header-wpr {
+  min-height: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 3%;
+}
+
+.app-title {
+  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(#b7a8a4, #095f62);
+  -webkit-background-clip: text;
+  font-size: 1.25rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.city {
+  background-color: hsla(0, 0%, 100%, 0.64);
+  border-radius: 0.75rem;
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.dark-theme .city {
+  color: #fff;
+}

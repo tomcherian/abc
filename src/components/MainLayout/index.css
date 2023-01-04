@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrp {
+  height: 100vh;
+  width: 100%;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(45deg, #efefef 0, #e0dddd 50%);
+}
+
+.content {
+  display: flex;
+  height: 100%;
+}
+
+.section-wrapper {
+  flex: 1;
+  display: flex;
+  width: 100%;
+  padding: 3% 0;
+}
+.left-section {
+  padding-left: 10%;
+}
+
+.right-section {
+  padding-right: 10%;
+}
+
+.blur {
+  border-radius: 50%;
+  -webkit-filter: blur(72px);
+  filter: blur(72px);
+  height: 14rem;
+  position: absolute;
+  width: 22rem;
+}
+
+.dark-theme.container {
+  background-image: linear-gradient(45deg, #262424 0, #191616 50%);
+}

@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+
+body {
+  font-family: Josefin Sans, Open Sans, sans-serif;
+  overflow: auto;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}

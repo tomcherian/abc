@@ -1,0 +1,32 @@
+.celsius-more {
+  color: #095f62;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.more-description {
+  color: #a9a9a9;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.more-hourly {
+  border-bottom: 1px solid #cfcdcd;
+}
+
+.dark-theme .main {
+  color: #fff;
+}
+
+.dark-theme .more-description {
+  color: #000;
+}
+
+.dark-theme .more-hourly {
+  color: #fff;
+}
+
+.dark-theme .celsius-more {
+  color: #9ee4e6;
+}
