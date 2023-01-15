@@ -9,7 +9,7 @@ import "./index.css";
 
 const TodaySection = () => {
   const { searchInputData, isAltitudeInput, tempUnit } = useContext(AppContext);
-
+  
   const { data } = useWeatherData(isAltitudeInput, {
     latitude: searchInputData.latitude,
     longitude: searchInputData.longitude,

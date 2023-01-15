@@ -1,4 +1,3 @@
-import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
 import { AppContext } from "../../../../context/AppContext";
 import SearchHeader from "./index";

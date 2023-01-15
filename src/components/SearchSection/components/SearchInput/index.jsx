@@ -1,4 +1,4 @@
-import { Dropdown } from "custom-dropdown-ver2";
+const { Dropdown } = require("custom-dropdown-ver2");
 import { Profiler, useContext, useEffect, useState } from "react";
 import _, { get } from "lodash";
 import { useForm } from "react-hook-form";

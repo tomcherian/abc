@@ -1,6 +1,5 @@
 import { render, screen } from "@testing-library/react";
 import MoreDetailsContent from ".";
-import "@testing-library/jest-dom";
 import { TEMP_UNITS } from "../../../../utils/constants";
 import { AppContext } from "../../../../context/AppContext";
 

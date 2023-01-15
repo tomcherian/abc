@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import ResultHeader from ".";
-import "@testing-library/jest-dom";
+import "@testing-library/jest-dom"
 
 describe("Result section header", () => {
   beforeEach(() => {
